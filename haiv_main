@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import time
 
 # @For arduino
-arduino_port = 'COM30' # port 변경 필수
+arduino_port = 'COM5' # port 변경 필수
 ser = fl.libARDUINO()
 comm = ser.init(arduino_port, 9600)
 def serial_one(da): # @전송만 할때
